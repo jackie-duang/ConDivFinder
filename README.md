@@ -3,7 +3,7 @@ Find divergent sites in conserved sequences
 
 
 ```
-perl conDivFinder -in <input.fasta> -l <species.list> -w <window size> -con <conserved number> -div <changed number> -bn <background can not conserved species>
+perl conDivFinder.pl -in <input.fasta> -l <species.list> -w <window size> -con <conserved number> -div <changed number> -bn <background can not conserved species>
 
 -w window size : default 20 , the window size for calculating the conserved region
 -con conserved number : default 18 , identify as conserved region if the number of nucleotides in the window is large or equal to this value
